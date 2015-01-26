@@ -32,6 +32,10 @@ h2 {
 	font-family: sans-serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 
 .main-icon-wrap {
 	text-align: center;
@@ -106,6 +110,8 @@ h2 {
 	content: '\e806';
 }
 
+// Effect #1
+
 .main-icon-effect1 .main-icon {
 	width: 92px;
 	height: 92px;
@@ -133,4 +139,68 @@ h2 {
 	-webkit-transition: box-shadow 0.2s;
 	-moz-transition: box-shadow 0.2s;
 	transition: box-shadow 0.2s;
+}
+
+// Effect #2
+
+.main-icon-effect2 .main-icon {
+	overflow: hidden;
+	-webkit-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	-moz-transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+	transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.main-icon-effect2 .main-icon:after {
+	display: none;
+}
+
+.main-icon-effect2 .main-icon:hover {
+	background: rgba(255,255,255,1);
+	color: #FF9999;
+	box-shadow: 0 0 0 8px rgba(255,255,255,0.3);
+}
+
+// Effect #3
+
+.main-icon-effect3 .main-icon {
+	-webkit-transition: box-shadow 0.2s;
+	-moz-transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;
+}
+
+.main-icon-effect3 .main-icon:after {
+	top: 0;
+	left: 0;
+	padding: 0;
+	box-shadow: 0 0 0 3px #fff;
+	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
+	transition: transform 0.2s, opacity 0.2s;
+}
+
+.main-icon-effect3-a .main-icon:hover:after {
+	-webkit-transform: scale(0.85);
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	transform: scale(0.85);
+	opacity: 0.5;
+}
+
+.main-icon-effect3-a .main-icon:hover {
+	box-shadow: 0 0 0 10px rgba(255,255,255,1);
+	color: #FF6699;
+}
+
+// Effect #4
+
+.main-icon-effect4 .main-icon {
+	
+	-webkit-transition: background 0.4s, color 0.3s;
+	-moz-transition: background 0.4s, color 0.3s;
+	transition: background 0.4s, color 0.3s;
+}
+
+.main-icon-effect4 .main-icon:hover {
+	background: rgba(255,255,255,1);
+	color: #FFCC99;
 }
