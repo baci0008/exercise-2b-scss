@@ -1,0 +1,128 @@
+/* This file contains all our variables */
+/* This file contains all our mixins */
+/* This is our main file for css/sass */
+/* line 3, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+#one {
+  background-color: #6CC; }
+
+/* line 7, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+#two {
+  background-color: #FFCCCC; }
+
+/* line 11, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+#three {
+  background-color: #66FFCC; }
+
+/* line 15, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+#four {
+  background-color: #FF9966; }
+
+/* line 19, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+h1 {
+  text-align: center;
+  color: #666;
+  font-family: sans-serif; }
+
+/* line 25, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+  color: #2980b9;
+  font-family: sans-serif; }
+
+/* line 32, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em 0 3em; }
+
+/* line 38, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon {
+  display: inline-block;
+  font-size: 0px;
+  margin: 15px 30px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #FFF; }
+
+/* line 52, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box; }
+
+/* line 64, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon:before {
+  font-family: 'custom-font';
+  speak: none;
+  font-size: 55px;
+  line-height: 90px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  display: block;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 77, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-play:before {
+  content: '\e800'; }
+
+/* line 81, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-crown:before {
+  content: '\e801'; }
+
+/* line 85, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-heart:before {
+  content: '\e802'; }
+
+/* line 89, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-cloud:before {
+  content: '\e803'; }
+
+/* line 93, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-pin:before {
+  content: '\e804'; }
+
+/* line 97, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-phone:before {
+  content: '\e805'; }
+
+/* line 101, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-globe:before {
+  content: '\e806'; }
+
+/* line 105, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-effect1 .main-icon {
+  width: 92px;
+  height: 92px;
+  box-shadow: 0 0 0 4px white; }
+
+/* line 111, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-effect1 .main-icon:before {
+  line-height: 92px; }
+
+/* line 115, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-effect1 .main-icon:after {
+  top: -4px;
+  left: -4px;
+  padding: 0;
+  z-index: 10;
+  border: 4px dashed #fff; }
+
+/* line 123, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.main-icon-effect1 .main-icon:hover {
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  color: #CCFFFF; }
+
+/* line 128, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+.hi-icon-effect1-a .main-icon {
+  transition: box-shadow 0.2s; }
