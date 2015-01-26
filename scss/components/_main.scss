@@ -1,0 +1,132 @@
+/* This is our main file for css/sass */
+
+#one {
+	@include section($background-one);
+}
+
+#two {
+	@include section($background-two);
+}
+
+#three {
+	@include section($background-three);
+}
+
+#four {
+	@include section($background-four);
+}
+
+h1 {
+	text-align: center;
+	color: $secondary-dark;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	color: $primary-dark;
+	font-family: sans-serif;
+}
+
+.main-icon-wrap {
+	text-align: center;
+	margin: 0 auto;
+	padding: 2em 0 3em;
+}
+
+.main-icon {
+	display: inline-block;
+	font-size: 0px;
+	
+	margin: 15px 30px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	color: #FFF;	
+}
+
+.main-icon:after {
+	pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	content: '';
+	-webkit-box-sizing: content-box; 
+	-moz-box-sizing: content-box; 
+	box-sizing: content-box;
+}
+
+.main-icon:before {
+	font-family: 'custom-font';
+	speak: none;
+	font-size: 55px;
+	line-height: 90px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	display: block;
+	-webkit-font-smoothing: antialiased;
+}
+
+.main-icon-play:before {
+	content: '\e800';
+}
+
+.main-icon-crown:before {
+	content: '\e801';
+}
+
+.main-icon-heart:before {
+	content: '\e802';
+}
+
+.main-icon-cloud:before {
+	content: '\e803';
+}
+
+.main-icon-pin:before {
+	content: '\e804';
+}
+
+.main-icon-phone:before {
+	content: '\e805';
+}
+
+.main-icon-globe:before {
+	content: '\e806';
+}
+
+.main-icon-effect1 .main-icon {
+	width: 92px;
+	height: 92px;
+	box-shadow: 0 0 0 4px rgba(255,255,255,1);	
+}
+
+.main-icon-effect1 .main-icon:before {
+	line-height: 92px;
+}
+
+.main-icon-effect1 .main-icon:after {
+	top: -4px;
+	left: -4px;
+	padding: 0;
+	z-index: 10;
+	border: 4px dashed #fff;
+}
+
+.main-icon-effect1 .main-icon:hover {
+	box-shadow: 0 0 0 0 rgba(255,255,255,0);
+	color: #CCFFFF;
+}
+
+.hi-icon-effect1-a .main-icon {
+	-webkit-transition: box-shadow 0.2s;
+	-moz-transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;
+}

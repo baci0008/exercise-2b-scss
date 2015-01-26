@@ -1,0 +1,5 @@
+/* This file contains all our mixins */
+
+@mixin section($bg-color){
+	background-color: $bg-color;
+}
