@@ -54,7 +54,7 @@ a {
   text-align: center;
   position: relative;
   z-index: 1;
-  color: #FFF; }
+  color: #fff; }
 
 /* line 60, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon:after {
@@ -111,7 +111,7 @@ a {
 .main-icon-effect1 .main-icon {
   width: 92px;
   height: 92px;
-  box-shadow: 0 0 0 4px white; }
+  box-shadow: 0 0 0 4px #fff; }
 
 /* line 121, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect1 .main-icon:before {
@@ -145,7 +145,7 @@ a {
 
 /* line 157, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect2 .main-icon:hover {
-  background: white;
+  background: #fff;
   color: #FF9999;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.3); }
 
@@ -171,7 +171,7 @@ a {
 
 /* line 189, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect3-a .main-icon:hover {
-  box-shadow: 0 0 0 10px white;
+  box-shadow: 0 0 0 10px #fff;
   color: #FF6699; }
 
 /* line 196, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
@@ -180,5 +180,5 @@ a {
 
 /* line 203, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect4 .main-icon:hover {
-  background: white;
+  background: #fff;
   color: #FFCC99; }
