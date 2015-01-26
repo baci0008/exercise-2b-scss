@@ -20,23 +20,26 @@
 /* line 19, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 h1 {
   text-align: center;
-  color: #666;
+  color: #999;
+  font-weight: 300;
+  font-size: 3em;
   font-family: sans-serif; }
 
-/* line 25, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 27, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 h2 {
   font-size: 1.5em;
   text-align: center;
-  color: #2980b9;
+  color: #CCC;
+  font-weight: 200;
   font-family: sans-serif; }
 
-/* line 32, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 36, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-wrap {
   text-align: center;
   margin: 0 auto;
   padding: 2em 0 3em; }
 
-/* line 38, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 42, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon {
   display: inline-block;
   font-size: 0px;
@@ -49,7 +52,7 @@ h2 {
   z-index: 1;
   color: #FFF; }
 
-/* line 52, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 56, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon:after {
   pointer-events: none;
   position: absolute;
@@ -59,7 +62,7 @@ h2 {
   content: '';
   box-sizing: content-box; }
 
-/* line 64, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 68, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon:before {
   font-family: 'custom-font';
   speak: none;
@@ -72,45 +75,45 @@ h2 {
   display: block;
   -webkit-font-smoothing: antialiased; }
 
-/* line 77, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 81, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-play:before {
   content: '\e800'; }
 
-/* line 81, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 85, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-crown:before {
   content: '\e801'; }
 
-/* line 85, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 89, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-heart:before {
   content: '\e802'; }
 
-/* line 89, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 93, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-cloud:before {
   content: '\e803'; }
 
-/* line 93, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 97, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-pin:before {
   content: '\e804'; }
 
-/* line 97, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 101, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-phone:before {
   content: '\e805'; }
 
-/* line 101, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 105, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-globe:before {
   content: '\e806'; }
 
-/* line 105, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 109, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect1 .main-icon {
   width: 92px;
   height: 92px;
   box-shadow: 0 0 0 4px white; }
 
-/* line 111, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 115, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect1 .main-icon:before {
   line-height: 92px; }
 
-/* line 115, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 119, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect1 .main-icon:after {
   top: -4px;
   left: -4px;
@@ -118,11 +121,11 @@ h2 {
   z-index: 10;
   border: 4px dashed #fff; }
 
-/* line 123, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 127, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .main-icon-effect1 .main-icon:hover {
   box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
   color: #CCFFFF; }
 
-/* line 128, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
+/* line 132, /Users/thaliamina/Documents/exercise-2b-scss/scss/components/main */
 .hi-icon-effect1-a .main-icon {
   transition: box-shadow 0.2s; }

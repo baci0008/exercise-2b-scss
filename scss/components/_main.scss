@@ -18,16 +18,20 @@
 
 h1 {
 	text-align: center;
-	color: $secondary-dark;
+	color: $primary;
+	font-weight: 300;
+	font-size: 3em;
 	font-family: sans-serif;
 }
 
 h2 {
 	font-size: 1.5em;
 	text-align: center;
-	color: $primary-dark;
+	color: $secondary;
+	font-weight: 200;
 	font-family: sans-serif;
 }
+
 
 .main-icon-wrap {
 	text-align: center;
